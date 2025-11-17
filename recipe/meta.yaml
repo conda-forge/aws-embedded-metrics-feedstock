@@ -1,5 +1,5 @@
 {% set name = "aws-embedded-metrics" %}
-{% set version = "3.2.0" %}
+{% set version = "3.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aws-embedded-metrics-{{ version }}.tar.gz
-  sha256: f235f87ab25ff328f6f3afca1c6b3218e81eea6e96e6aee012d368bb813fae7b
+  sha256: f417c396b394959f923d5b53cfe241d01a0ccded60c8f30d9231ff05c8235ec5
 
 build:
   noarch: python
