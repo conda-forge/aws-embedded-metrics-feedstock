@@ -18,6 +18,7 @@ requirements:
   host:
     - python >=3.6,<3.14
     - pip
+    - setuptools
   run:
     - python >=3.6,<3.14
     - aiohttp
@@ -41,3 +42,5 @@ about:
 extra:
   recipe-maintainers:
     - zuoyuan-alt
+    - seoberha
+    - zuoyuanh
